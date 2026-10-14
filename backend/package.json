@@ -1,0 +1,21 @@
+{
+  "name": "relay-messenger-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js REST API and Socket.IO realtime events backed by SQLite",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/*.test.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}

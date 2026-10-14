@@ -1,0 +1,27 @@
+# Dependencies and generated build outputs
+node_modules/
+frontend/dist/
+frontend/.vite/
+coverage/
+
+# Local configuration and private data
+.env
+.env.*
+!.env.example
+backend/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Editor and OS state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Personal test artifacts
+*.local
